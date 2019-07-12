@@ -97,13 +97,13 @@ Actual time needed to complete: 1 hour
 <!-- ------------- -->
 Number and name of feature: Movie API
 
-Estimate of time needed to complete: 1.5 hour
+Estimate of time needed to complete: 2 hours
 
-Start time: 10:30am
+Start time: 9:30am
 
-Finish time: 
+Finish time: 11:30am
 
-Actual time needed to complete: 
+Actual time needed to complete: 2 hours
 
 ## Credits and Collaborations
 Nicholas Paro
