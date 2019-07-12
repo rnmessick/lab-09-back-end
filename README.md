@@ -1,7 +1,7 @@
-# lab-06-back-end
+# lab-09-back-end
 
-**Author**: Peter Lee & Jack Kinne
-**Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)
+**Author**: Renee Messick & Jack Kinne & Jane Hur
+**Version**: 1.4.0 (increment the patch/fix version number if you make more commits past your first submission)
 
 ## Overview
 To get the weather and location of the user's specified query.
@@ -14,6 +14,9 @@ Technologies: Node.js, Express
 APIs used: Darksky, Google Maps Geodata
 
 ## Change Log
+
+to install locally and run off a PG there:
+psql -d city_explorer -f schema.sql
 
 Number and name of feature: Location
 
@@ -92,7 +95,7 @@ Finish time: 10:30am
 Actual time needed to complete: 1 hour
 
 <!-- ------------- -->
-Number and name of feature: Server
+Number and name of feature: Movie API
 
 Estimate of time needed to complete: 1.5 hour
 
@@ -103,8 +106,12 @@ Finish time:
 Actual time needed to complete: 
 
 ## Credits and Collaborations
-Nicholas Paro - https://github.com/paronicholas
-Padmapriya Ganapathi - https://github.com/gpadmapriya
-Peter Lee - https://github.com/leepj85
-Brandon Hurrington, Chris Coulon, Steve Grant, Joachen Busch
-
+Nicholas Paro
+Padmapriya Ganapathi
+Peter Lee
+Brandon Hurrington
+Chris Coulon
+Steve Grant
+Joachen Busch
+Fabian Brooks
+Matt Stuhring

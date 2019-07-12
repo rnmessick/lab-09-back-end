@@ -12,7 +12,7 @@ INSERT INTO locations (
 INSERT INTO weathers (
   forecast,
   time,
-  location_id
+  id
 ) VALUES ($1, $2, $3 )
 [variable that is 5]
 
