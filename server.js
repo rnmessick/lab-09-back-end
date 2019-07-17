@@ -178,40 +178,7 @@ function getMovie(request, response) {
 
       superagent.get(url)
         .then(result => {
-
-
-          // vote_count: 44,
-          // id: 16973,
-          // video: false,
-          // vote_average: 5.9,
-          // title: 'Love Object',
-          // popularity: 7.503,
-          // poster_path: '/2ugM0JAxWTV6eAhYK9A7tbw5F2j.jpg',
-          // original_language: 'en',
-          // original_title: 'Love Object',
-          // genre_ids: [Array],
-          // backdrop_path: '/tpJQSwIgp1NF9XidlCp4iooB5ja.jpg',
-          // adult: false,
-          // overview: 'The twisted tale of Kenneth, socially insecure technical ' +
-          //   'writer who forms an obsessive relationship with "Nikki", an ' +
-          //   'anatomically accurate silicone sex doll he orders over the ' +
-          //   'Internet.',
-          // release_date: '2003-04-05'
-
-
-          //we need this:
-          // title,
-          // overview,
-          // average_votes,
-          // total_votes,
-          // image_url,
-          // popularity,
-          // released_on,
-          // location_id
-
-          
           const movieSummaries = result.body.results.map(stuff => {
-            console.log('movie stuff here --------> ',stuff);
             const summary = new Movie(stuff);
             summary.save(request.query.data.id);
             return summary;
